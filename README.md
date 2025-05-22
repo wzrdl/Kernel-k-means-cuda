@@ -40,7 +40,7 @@ Popcorn was evaluated on a synthetic concentric circles dataset, a classic examp
 * **Comparison:** Against a C++ CPU baseline implementation of kernel K-means.
 
 **Performance Highlights:**
-* **Speedup:** Popcorn achieved over 1000x speedup at larger scales, with some configurations (e.g., $N=2000, K=5$ or $K=10$) showing speedups exceeding 10,000x and 12,000x respectively. [cite: 98, 100] (See Figure 1 in the PDF)
+* **Speedup:** Popcorn achieved over 1000x speedup at larger scales, with some configurations (e.g., $N=2000, K=5$ or $K=10$) showing speedups exceeding 10,000x and 12,000x respectively.(See Figure 1 in the PDF)
 * **GFLOPs:** Showed increasing GFLOPs performance with larger matrix sizes (N), generally around 5-10 GFLOPs for $K=2$ with $N$ from 1000 to 10000. (See Figure 2 and Table 1 in the PDF)
 
 ## Requirements
