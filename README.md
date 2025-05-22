@@ -57,3 +57,10 @@ To compile the Popcorn kernel K-means implementation, use the following command.
 ```bash
 nvcc popcorn_kernel_kmeans.cu -o popcorn_kmeans -arch=sm_60 -std=c++17 -lcublas -lcusparse -lineinfo -O3
 ```
+
+Running
+After successful compilation, you can run the executable:
+
+```bash
+./popcorn_kmeans
+```
